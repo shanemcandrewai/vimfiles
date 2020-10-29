@@ -1,4 +1,4 @@
-"Last change set shiftwidth=2
+"vimrc simlink
 source $VIMRUNTIME/defaults.vim
 set showmode
 set ignorecase
