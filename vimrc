@@ -1,10 +1,9 @@
 "vimrc simlink
 source $VIMRUNTIME/defaults.vim
-set showmode
-set ignorecase
-set smartcase "Override ignorecase option if the search contains upper case
-set linebreak 
-set encoding=utf-8
+set ignorecase "Ignore case in search patterns
+set smartcase "Override 'ignorecase' option if the search contains upper case
+set linebreak "wrap long lines at a character in 'breakat'
+set encoding=utf-8 "For GTK+ 2 or later, it is highly recommended to set 'encoding' to 'utf-8'
 set noswapfile
 "set shiftwidth=2
 "Revert with :filetype off".
