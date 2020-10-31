@@ -21,8 +21,8 @@ nnoremap <Leader>e $
 nnoremap <Leader>f <C-]>
 nnoremap <Leader>i i_<Esc>r
 nnoremap <Leader>m :edit $MYVIMRC<CR>
-"Repeat last command-line 
-nnoremap <Leader>r @:
+nnoremap <Leader>n <C-W>w
+nnoremap <Leader>p <C-W>W
 nnoremap <Leader>s :source %<CR>
 nnoremap <Leader>v :view!<CR>
 nnoremap <Leader>w :write!<CR>
