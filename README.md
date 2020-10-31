@@ -1,7 +1,7 @@
 # vimfiles
 Cross platform vim configuration
 ## Installation
-    cd $HOME
+Change to home directory
     git clone https://github.com/shanemcandrewai/vimfiles.git
 ## Addition Linux installation bash commands
 ### Create Linux Vim intialization directory if required
