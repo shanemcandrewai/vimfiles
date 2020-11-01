@@ -1,4 +1,4 @@
-"2020-10-31 09:53:51
+"2020-11-01 10:48:35
 source $VIMRUNTIME/defaults.vim
 set ignorecase "Ignore case in search patterns
 set smartcase "Override 'ignorecase' option if the search contains upper case
@@ -16,6 +16,7 @@ inoremap <Leader>v <Esc>:view!<CR>
 inoremap <Leader>w :write!<CR>
 nnoremap <Leader>a a_<Esc>r
 nnoremap <Leader>b ^
+nnoremap <Leader>c <C-W>c
 nnoremap <Leader>d :edit %:p:h<CR>
 nnoremap <Leader>e $
 nnoremap <Leader>f <C-]>
@@ -32,3 +33,4 @@ nnoremap <Leader>w :write!<CR>
 "yiw {motion} viwp "copy the word under the cursor, move to a new word, select it, paste the unnamed register
 "q: "open the command-line window
 ":pu=strftime('%Y-%m-%d %H:%M:%S') "put the current date and time
+"netrw mt (mark target), mf (mark file), mc (copy) or mm (move)
