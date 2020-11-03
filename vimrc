@@ -18,12 +18,14 @@ noremap <Leader>a a_<Esc>r
 noremap <Leader>b ^
 noremap <Leader>c <C-W>c
 noremap <Leader>d :edit %:p:h<CR>
-noremap <Leader>e $
+noremap <Leader>e :e<space>
 noremap <Leader>f <C-]>
+noremap <Leader>h :cd<space>
 noremap <Leader>i i_<Esc>r
 noremap <Leader>m :edit $MYVIMRC<CR>
 noremap <Leader>n <C-W>w
-noremap <Leader>p<CR> :pwd
+noremap <Leader>o <C-W>o
+noremap <Leader>p :pwd<CR>
 noremap <Leader>s :source %<CR>
 noremap <Leader>v :view!<CR>
 noremap <Leader>w :write!<CR>
