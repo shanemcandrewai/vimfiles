@@ -8,25 +8,25 @@ set noswapfile
 
 inoremap jj <Esc>
 inoremap <C-S> <Esc>:w<CR>
-nnoremap ; :
 
-let mapleader = "vv"
+:let mapleader = ";"
 
-inoremap <Leader>v <Esc>:view!<CR>
-inoremap <Leader>w :write!<CR>
-nnoremap <Leader>a a_<Esc>r
-nnoremap <Leader>b ^
-nnoremap <Leader>c <C-W>c
-nnoremap <Leader>d :edit %:p:h<CR>
-nnoremap <Leader>e $
-nnoremap <Leader>f <C-]>
-nnoremap <Leader>i i_<Esc>r
-nnoremap <Leader>m :edit $MYVIMRC<CR>
-nnoremap <Leader>n <C-W>w
-nnoremap <Leader>p <C-W>W
-nnoremap <Leader>s :source %<CR>
-nnoremap <Leader>v :view!<CR>
-nnoremap <Leader>w :write!<CR>
+noremap <Leader>; :
+noremap <Leader>v <Esc>:view!<CR>
+noremap <Leader>w :write<CR>
+noremap <Leader>a a_<Esc>r
+noremap <Leader>b ^
+noremap <Leader>c <C-W>c
+noremap <Leader>d :edit %:p:h<CR>
+noremap <Leader>e $
+noremap <Leader>f <C-]>
+noremap <Leader>i i_<Esc>r
+noremap <Leader>m :edit $MYVIMRC<CR>
+noremap <Leader>n <C-W>w
+noremap <Leader>p<CR> :pwd
+noremap <Leader>s :source %<CR>
+noremap <Leader>v :view!<CR>
+noremap <Leader>w :write!<CR>
 
 ":put =expand('%') "insert current file name
 "_: "next command on text previously selected in visual mode
