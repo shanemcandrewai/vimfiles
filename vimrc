@@ -22,13 +22,12 @@ noremap <Leader>e :e<space>
 noremap <Leader>f <C-]>
 noremap <Leader>g :marks<CR>
 noremap <Leader>h :cd<space>
-noremap <Leader>' "
 noremap <Leader>i i_<Esc>r
 noremap <Leader>n <C-W>w
 noremap <Leader>o <C-W>o
 noremap <Leader>p :pwd<CR>
 noremap <Leader>s :source %<CR>
-noremap <Leader>v :view!<CR>
+noremap <Leader>v :view!<space>
 noremap <Leader>w :write<CR>
 
 ":put =expand('%') "insert current file name
