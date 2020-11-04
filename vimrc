@@ -1,4 +1,5 @@
-"2020-11-01 10:48:35
+":pu=strftime('%Y-%m-%d %H:%M:%S') "put the current date and time
+"2020-11-04 06:34:45
 source $VIMRUNTIME/defaults.vim
 set ignorecase "Ignore case in search patterns
 set smartcase "Override 'ignorecase' option if the search contains upper case
@@ -11,9 +12,8 @@ inoremap <C-S> <Esc>:w<CR>
 
 :let mapleader = ";"
 
+noremap <Leader>' "
 noremap <Leader>; :
-noremap <Leader>v <Esc>:view!<CR>
-noremap <Leader>w :write<CR>
 noremap <Leader>a a_<Esc>r
 noremap <Leader>b ^
 noremap <Leader>c <C-W>c
@@ -28,11 +28,12 @@ noremap <Leader>o <C-W>o
 noremap <Leader>p :pwd<CR>
 noremap <Leader>s :source %<CR>
 noremap <Leader>v :view!<CR>
-noremap <Leader>w :write!<CR>
+noremap <Leader>w :write<CR>
 
 ":put =expand('%') "insert current file name
 "_: "next command on text previously selected in visual mode
 "yiw {motion} viwp "copy the word under the cursor, move to a new word, select it, paste the unnamed register
 "q: "open the command-line window
-":pu=strftime('%Y-%m-%d %H:%M:%S') "put the current date and time
 "netrw mt (mark target), mf (mark file), mc (copy) or mm (move)
+"CTRL-E		Insert the character which is below the cursor.  {not in Vi}
+"CTRL-Y		Insert the character which is above the cursor.  {not in Vi}
