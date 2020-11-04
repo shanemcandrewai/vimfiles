@@ -7,5 +7,6 @@ Change to home directory
 ## Additional Linux installation bash commands
 ### Create Linux Vim intialization directory if required
     mkdir -p ~/.vim
-### Create symbolic link in Linux Vim intialization directory to vimrc
+### Create symbolic link in Linux Vim intialization directory to rc files
     ln -s ~/vimfiles/vimrc ~/.vim/vimrc
+    ln -s ~/vimfiles/gvimrc ~/.vim/gvimrc
