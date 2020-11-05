@@ -4,12 +4,13 @@
     git pull
     make
     make install
+### Option configuraton file
+    [Vim git repository]/vim/src/Makefile
+## Trouble-shooting
 ### Error `E25 GUI cannot be used: Not enabled at compile time`
     [Vim git repository]/vim/src/Makefile
 Ensure the following line is uncommented
     CONF_OPT_GUI = --enable-gui=gtk3
-### Option configuraton file
-    [Vim git repository]/vim/src/Makefile
-### Trouble-shooting
+### Other useful files
     [Vim git repository]/vim/src/auto/conf.log
     [Vim git repository]/vim/src/auto/configure
