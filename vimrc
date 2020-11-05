@@ -1,5 +1,3 @@
-":pu=strftime('%Y-%m-%d %H:%M:%S') "put the current date and time
-"2020-11-04 09:54:51
 source $VIMRUNTIME/defaults.vim
 set viminfofile=$HOME/vimfiles/viminfo
 set ignorecase "Ignore case in search patterns
@@ -23,6 +21,7 @@ noremap <Leader>f <C-]>
 noremap <Leader>g :marks<CR>
 noremap <Leader>h :cd<space>
 noremap <Leader>i i_<Esc>r
+noremap <Leader>m :edit $MYVIMRC<CR>
 noremap <Leader>n <C-W>w
 noremap <Leader>o <C-W>o
 noremap <Leader>p :pwd<CR>
@@ -38,3 +37,5 @@ noremap <Leader>w :write<CR>
 "CTRL-E		Insert the character which is below the cursor.  {not in Vi}
 "CTRL-Y		Insert the character which is above the cursor.  {not in Vi}
 "after using deleting file marks with :delm, save the deletions to viminfo with :wv!
+":pu=strftime('%Y-%m-%d %H:%M:%S') "put the current date and time
+":let @a=expand('%') "assign path of current file to register a
