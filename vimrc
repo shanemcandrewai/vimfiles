@@ -13,23 +13,25 @@ inoremap <C-S> <Esc>:w<CR>
 
 noremap <Leader>; :
 noremap <Leader>a a_<Esc>r
-noremap <Leader>b ^
+noremap <Leader>b :buffer<space>
 noremap <Leader>c <C-W>c
 noremap <Leader>d :edit %:p:h<CR>
-noremap <Leader>e :e<space>
+noremap <Leader>e :edit<space>
 noremap <Leader>f <C-]>
 noremap <Leader>g :marks<CR>
-noremap <Leader>h :cd<space>
+noremap <Leader>h :help<space>
 noremap <Leader>i i_<Esc>r
 noremap <Leader>m :edit $MYVIMRC<CR>
 noremap <Leader>n <C-W>w
 noremap <Leader>o <C-W>o
 noremap <Leader>p :pwd<CR>
-noremap <Leader>s :source %<CR>
+noremap <Leader>q :quit<CR>
+noremap <Leader>r :chdir<space>
+noremap <Leader>s :split<CR>
+noremap <Leader>t :source %<CR>
 noremap <Leader>v :view!<space>
 noremap <Leader>w :write<CR>
 
-":put =expand('%') "insert current file name
 "_: "next command on text previously selected in visual mode
 "yiw {motion} viwp "copy the word under the cursor, move to a new word, select it, paste the unnamed register
 "q: "open the command-line window
@@ -38,4 +40,5 @@ noremap <Leader>w :write<CR>
 "CTRL-Y		Insert the character which is above the cursor.  {not in Vi}
 "after using deleting file marks with :delm, save the deletions to viminfo with :wv!
 ":pu=strftime('%Y-%m-%d %H:%M:%S') "put the current date and time
+":put =expand('%') "insert current file name
 ":let @a=expand('%') "assign path of current file to register a
