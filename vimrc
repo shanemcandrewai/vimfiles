@@ -9,9 +9,9 @@ set noswapfile
 inoremap jj <Esc>
 inoremap <C-S> <Esc>:w<CR>
 
-:let mapleader = ";"
+:let mapleader = " "
 
-noremap <Leader>; :
+noremap <Leader><space> :
 noremap <Leader>a a_<Esc>r
 noremap <Leader>b :buffer<space>
 noremap <Leader>c <C-W>c
