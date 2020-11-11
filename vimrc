@@ -5,6 +5,7 @@ set smartcase "Override 'ignorecase' option if the search contains upper case
 set linebreak "wrap long lines at a character in 'breakat'
 set encoding=utf-8 "For GTK+ 2 or later, it is highly recommended to set 'encoding' to 'utf-8'
 set noswapfile
+set shiftwidth=2
 
 inoremap jj <Esc>
 inoremap <C-S> <Esc>:w<CR>
@@ -25,12 +26,14 @@ noremap <Leader>m :edit $MYVIMRC<CR>
 noremap <Leader>n <C-W>w
 noremap <Leader>o <C-W>o
 noremap <Leader>p :pwd<CR>
-noremap <Leader>q :quit<CR>
+noremap <Leader>q :qall<CR>
 noremap <Leader>r :chdir<space>
 noremap <Leader>s :split<CR>
 noremap <Leader>t :source %<CR>
+noremap <Leader>u :set<space>
 noremap <Leader>v :view!<space>
 noremap <Leader>w :write<CR>
+noremap <Leader>= gg=G
 
 "_: "next command on text previously selected in visual mode
 "yiw {motion} viwp "copy the word under the cursor, move to a new word, select it, paste the unnamed register
