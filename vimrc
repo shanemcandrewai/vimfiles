@@ -22,6 +22,7 @@ noremap <Leader>f <C-]>
 noremap <Leader>g :marks<CR>
 noremap <Leader>h :help<space>
 noremap <Leader>i i_<Esc>r
+noremap <Leader>j :source %
 noremap <Leader>m :edit $MYVIMRC<CR>
 noremap <Leader>n <C-W>w
 noremap <Leader>o <C-W>o
@@ -29,11 +30,12 @@ noremap <Leader>p :pwd<CR>
 noremap <Leader>q :qall<CR>
 noremap <Leader>r :chdir<space>
 noremap <Leader>s :split<CR>
-noremap <Leader>t :source %<CR>
 noremap <Leader>u :set<space>
 noremap <Leader>v :view!<space>
 noremap <Leader>w :write<CR>
 noremap <Leader>= gg=G
+
+source ~/vimfiles/tag-comment.vim
 
 "_: "next command on text previously selected in visual mode
 "yiw {motion} viwp "copy the word under the cursor, move to a new word, select it, paste the unnamed register
