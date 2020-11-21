@@ -9,6 +9,7 @@ set shiftwidth=2
 
 inoremap jj <Esc>
 inoremap <C-S> <Esc>:w<CR>
+noremap <C-S> :w<CR>
 
 :let mapleader = " "
 
@@ -32,7 +33,6 @@ noremap <Leader>r :chdir<space>
 noremap <Leader>s :split<CR>
 noremap <Leader>u :set<space>
 noremap <Leader>v :view!<space>
-noremap <Leader>w :write<CR>
 noremap <Leader>= gg=G
 
 source ~/vimfiles/tag-comment.vim
