@@ -6,6 +6,7 @@ set linebreak "wrap long lines at a character in 'breakat'
 set encoding=utf-8 "For GTK+ 2 or later, it is highly recommended to set 'encoding' to 'utf-8'
 set noswapfile
 set shiftwidth=2
+set expandtab
 
 inoremap jj <Esc>
 inoremap <C-S> <Esc>:w<CR>
@@ -24,6 +25,7 @@ noremap <Leader>g :marks<CR>
 noremap <Leader>h :help<space>
 noremap <Leader>i i_<Esc>r
 noremap <Leader>j :source %
+noremap <Leader>k "
 noremap <Leader>m :edit $MYVIMRC<CR>
 noremap <Leader>n <C-W>w
 noremap <Leader>o <C-W>o
