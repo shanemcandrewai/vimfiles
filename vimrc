@@ -26,6 +26,7 @@ noremap <Leader>h :help<space>
 noremap <Leader>i i_<Esc>r
 noremap <Leader>j :source %
 noremap <Leader>k "
+noremap <Leader>l :%!python3.9 -m json.tool --indent 2<CR>
 noremap <Leader>m :edit $MYVIMRC<CR>
 noremap <Leader>n <C-W>w
 noremap <Leader>o <C-W>o
@@ -36,6 +37,7 @@ noremap <Leader>s :split<CR>
 noremap <Leader>u :set<space>
 noremap <Leader>v :view!<space>
 noremap <Leader>= gg=G
+noremap <Leader>, $a,<Esc>
 
 source ~/vimfiles/tag-comment.vim
 
