@@ -25,8 +25,7 @@ noremap <Leader>g :marks<CR>
 noremap <Leader>h :help<space>
 noremap <Leader>i i_<Esc>r
 noremap <Leader>j :source %
-noremap <Leader>k "
-noremap <Leader>l :%!python3.9 -m json.tool --indent 2<CR>:syntax on<CR>
+noremap <Leader>l :%!python -m json.tool<CR>
 noremap <Leader>m :edit $MYVIMRC<CR>
 noremap <Leader>n <C-W>w
 noremap <Leader>o <C-W>o
@@ -38,7 +37,7 @@ noremap <Leader>t :terminal<CR>
 noremap <Leader>u :set<space>
 noremap <Leader>v :view!<space>
 noremap <Leader>= gg=G
-noremap <Leader>, $a,<Esc>
+noremap <Leader>, :s/\v(.)$/\=submatch(1)==',' ? '' : submatch(1).','<CR>
 
 source ~/vimfiles/tag-comment.vim
 
