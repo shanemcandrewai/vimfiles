@@ -7,6 +7,7 @@ set encoding=utf-8 "For GTK+ 2 or later, it is highly recommended to set 'encodi
 set noswapfile
 set shiftwidth=2
 set expandtab
+set foldmethod=syntax "enable folding for JSON files
 
 inoremap jj <Esc>
 inoremap <C-S> <Esc>:w<CR>
