@@ -39,6 +39,7 @@ noremap <Leader>u :set<space>
 noremap <Leader>v :view!<space>
 noremap <Leader>= gg=G
 noremap <Leader>, :s/\v(.)$/\=submatch(1)==',' ? '' : submatch(1).','<CR>
+noremap <Leader>[ i{"": ""}<Esc>
 
 source ~/vimfiles/tag-comment.vim
 
