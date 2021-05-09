@@ -1,2 +1,4 @@
 set lines=999
-set guifont=Consolas:h11
+if has("win32")
+  set guifont=Consolas:h11
+endif
