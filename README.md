@@ -17,3 +17,6 @@ Change to home directory
 #### Verify
     C:\>cd %windir%
     C:\WINDOWS>dir /b *.bat
+## Launch gvim with python virtual environment
+### Windows
+    ..\venv\Scripts\activate & gvim
