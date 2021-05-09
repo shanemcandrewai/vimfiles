@@ -26,7 +26,7 @@ noremap <Leader>g :marks<CR>
 noremap <Leader>h :help<space>
 noremap <Leader>i i_<Esc>r
 noremap <Leader>j :source %
-noremap <Leader>l :%!python -m json.tool<CR>
+noremap <Leader>l :%!python -m json.tool --indent 2<CR>
 noremap <Leader>m :edit $MYVIMRC<CR>
 noremap <Leader>n <C-W>w
 noremap <Leader>o <C-W>o
