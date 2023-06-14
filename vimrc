@@ -38,6 +38,7 @@ noremap <Leader>t :terminal<CR>
 noremap <Leader>u :set<space>
 noremap <Leader>v :view!<space>
 noremap <Leader>= gg=G
+"append comma to visually selected lines
 noremap <Leader>, :s/\v(.)$/\=submatch(1)==',' ? '' : submatch(1).','<CR>
 noremap <Leader>[ i{"": ""}<Esc>
 
