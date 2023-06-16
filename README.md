@@ -12,7 +12,7 @@ Change to home directory
     ln -s ~/vimfiles/gvimrc ~/.vim/gvimrc
 ## Windows
 ### Using vim installed with git for windows
-Copy the folder [.vim](./MYSYS2/.vim) to $HOME
+Copy the folder [.vim](./MSYS2/.vim) to $HOME
 ### Enable execution from command line
 #### During installation select option
     [x] Create .bat files for command line use
