@@ -11,14 +11,15 @@ Change to home directory
     ln -s ~/vimfiles/vimrc ~/.vim/vimrc
     ln -s ~/vimfiles/gvimrc ~/.vim/gvimrc
 ## Windows
-### Using vim installed with git for windows
+### vim installed with git for windows
 Copy the folder [.vim](./MSYS2/.vim) to $HOME
-### Enable execution from command line
-#### During installation select option
+### gvim
+#### Enable execution from command line
+##### During installation select option
     [x] Create .bat files for command line use
-#### Verify
+##### Verify
     C:\>cd %windir%
     C:\WINDOWS>dir /b *.bat
-## Launch gvim with python virtual environment
-### Windows
+### Launch gvim with python virtual environment
+#### Windows
     ..\venv\Scripts\activate & gvim
